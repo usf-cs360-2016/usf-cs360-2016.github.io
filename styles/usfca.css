@@ -1,0 +1,56 @@
+/* usf official colors */
+
+/* foreground colors */
+
+.usf-gold {
+  color: #fdbb30;
+}
+
+.usf-green {
+  color: #00543c;
+}
+
+.usf-grey {
+  color: #919194;
+}
+
+/* background colors */
+
+.usf-gold-bg {
+  background-color: #fdbb30;
+}
+
+.usf-green-bg {
+  background-color: #00543c;
+}
+
+.usf-grey-bg {
+  background-color: #919194;
+}
+
+/* hover colors */
+
+.usf-gold-hover:hover {
+  color: #fdbb30;
+}
+
+.usf-green-hover:hover {
+  color: #00543c;
+}
+
+.usf-grey-hover:hover {
+  color: #919194;
+}
+
+/* color combos */
+/* usf-foreground-background */
+
+.usf-primary-btn {
+  color: white;
+  background-color: #00543c;
+}
+
+.usf-primary-btn:hover {
+  color: #fdbb30;
+}
+

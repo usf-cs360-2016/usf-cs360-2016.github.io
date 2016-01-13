@@ -1,0 +1,15 @@
+name: CS 360 Data Visualization
+author: University of San Francisco
+
+# Filter
+show_drafts: null
+future: true
+unpublished: false
+
+# Output
+permalink: date
+timezone: America/Los_Angeles
+
+# Data
+blurb: |
+  This course will introduce students to the field of data visualization. Students will utilize <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>, <a href="http://d3js.org/">D3.js</a>, <a href="https://pages.github.com/">GitHub Pages</a>, and many other tools to prototype visualization techniques.

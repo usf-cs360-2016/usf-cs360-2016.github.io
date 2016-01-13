@@ -1,0 +1,144 @@
+/* bootstrap theme overrides */
+
+@import url("http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,700");
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,300italic,700italic");
+
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size:   13pt;
+  padding-top: 70px;
+}
+
+strong, b, h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+/* code formatting */
+
+code, pre, tt {
+  font-family: "Source Code Pro", Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-weight: 300;
+}
+
+code {
+  color: dimgray;
+  background-color: whitesmoke;
+}
+
+.img-pad {
+  padding-top: 1.5ex;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  margin-top: -20px;
+}
+
+.jumbotron h1 {
+  margin: 0px 0px 30px 0px;
+  line-height: 0.8;
+}
+
+.jumbotron h1 small {
+  font-weight: 300;
+}
+
+.jumbotron p {
+  color: dimgray;
+}
+
+.jumbotron p strong,
+.jumbotron p a {
+  color: #00543c;
+}
+
+.jumbotron p strong:hover,
+.jumbotron p a:hover {
+  color: #fdbb30;
+}
+
+/* navigation bar */
+
+.navbar-inverse,
+.nav-pills li.active a,
+.nav-pills li.active a:hover {
+  background-color: #00543c;
+}
+
+.nav-pills li a {
+  color: #00543c;
+}
+
+.navbar-inverse .navbar-nav li a,
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-brand:hover {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+  color: #fdbb30;
+}
+
+.navbar-brand img {
+  height: 24px;
+}
+
+/* footer formatting */
+
+footer hr {
+  margin-bottom: 0.25ex;
+}
+
+footer p {
+  text-align: center;
+  font-size: small;
+}
+
+/* remove link display on print */
+
+@media print {
+  a[href]:after {
+    content: none;
+  }
+}
+
+/* no border tables */
+
+table.table-noborder,
+.table-noborder tbody,
+.table-noborder thead,
+.table-noborder th,
+.table-noborder td {
+  border: none !important;
+}
+
+/* show bookmark icon on hover */
+
+.bookmark a {
+  color: inherit;
+  visibility: visible;
+}
+
+.bookmark a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.bookmark i {
+  color: gainsboro;
+  visibility: hidden;
+}
+
+.bookmark:hover i {
+  visibility: visible;
+}
+
+.bookmark:before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}

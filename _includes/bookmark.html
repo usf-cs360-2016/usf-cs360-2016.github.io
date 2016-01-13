@@ -1,0 +1,2 @@
+<a name="{{ include.heading | downcase | replace: ' ', '-' }}" style="visibility: none;"></a>
+<{{ include.type }} class="bookmark{% if include.class %} {{ include.class }}{% endif %}"><a href="#{{ include.heading | downcase | replace: ' ', '-' }}">{{ include.heading }}</a> <i class="fa fa-link"></i></{{ include.type }}>
