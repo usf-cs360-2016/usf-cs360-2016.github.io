@@ -3,5 +3,30 @@ layout: landing
 title: Home
 ---
 
-<h2>Latest News</h2>
+<h2>Course Resources</h2>
 
+<p>The <a href="{{ {{ site.github.url }}/schedule.html">course schedule</a> will be maintained on this website. Visit the <a href="{{ site.data.course.github }}">Github</a> repository for code examples and homework templates. Visit <a href="{{ site.data.course.canvas }}">Canvas</a> for quizzes, graded discussions, and grades. Finally, visit <a href="{{ site.data.course.piazza }}">Piazza</a> for announcements and questions.</p>
+
+<!-- button group for course resources -->
+<div class="btn-group btn-group-lg" role="group">
+  <button type="button" class="btn btn-default">
+    <a href="{{ site.github.repository_url }}">
+      <i class="fa fa-github-alt"></i>
+    </a>
+    <a href="{{ site.github.repository_url }}">Github</a>
+  </button>
+
+  <button type="button" class="btn btn-default">
+    <a href="{{ site.canvas }}">
+      <i class="fa fa-cloud"></i>
+    </a>
+    <a href="{{ site.canvas }}">Canvas</a>
+  </button>
+
+  <button type="button" class="btn btn-default">
+    <a href="{{ site.piazza }}">
+      <i class="fa fa-comments"></i>
+    </a>
+    <a href="{{ site.piazza }}">Piazza</a>
+  </button>
+</div>
