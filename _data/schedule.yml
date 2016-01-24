@@ -32,9 +32,9 @@
           icon  : "fa-question-circle"
       dates :
         - name  : "Github Account"
-          style : "text-muted"
           icon  : "fa-pencil-square-o"
           label : "Due"
+          link  : "https://usfca.instructure.com/courses/1558949/assignments/6565823"
     # ---------------------------------
     - class : 2016-01-29 # friday
       style : false
@@ -74,9 +74,13 @@
           icon  : "fa-flag"
       dates :
         - name  : "Github Pages"
-          style : "text-muted"
           icon  : "fa-pencil-square-o"
           label : "Due"
+          link  : "https://usfca.instructure.com/courses/1558949/assignments/6565824"
+        - name  : "Vis Talk Signup"
+          icon  : "fa-pencil-square-o"
+          label : "Due"
+          link  : "https://usfca.instructure.com/courses/1558949/assignments/6565814"
     # ---------------------------------
     - class : 2016-02-05 # friday
       style : false
