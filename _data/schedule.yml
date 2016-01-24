@@ -1,0 +1,601 @@
+        # - name  : ""
+        #   style : false
+        #   icon  : false
+        #   link  : false
+        #   label : false
+
+# =====================================
+- week  : 1
+  style : false
+  days  :
+    # ---------------------------------
+    - class : 2016-01-25 # monday
+      style : false
+      notes :
+        - name  : "Course Syllabus"
+          style : false
+          icon  : "fa-globe"
+          link  : "syllabus.html"
+        - name  : "Motivation and Terminology"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates :
+        - name  : "Classes Begin"
+          style : "text-muted"
+          icon  : "fa-calendar"
+    # ---------------------------------
+    - class : 2016-01-27 # wednesday
+      style : false
+      notes :
+        - name  : "Perception and Illusions"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates :
+        - name  : "Github Account"
+          style : "text-muted"
+          icon  : "fa-pencil-square-o"
+          label : "Due"
+    # ---------------------------------
+    - class : 2016-01-29 # friday
+      style : false
+      notes :
+        - name  : "Intro to Github Pages"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+        - name  : "Intro to JavaScript"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+        - name  : "Intro to D3.js"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates :
+        - name  : "Add Deadline"
+          style : "text-muted"
+          icon  : "fa-calendar"
+
+# =====================================
+- week  : 2
+  style : false
+  days  :
+    # ---------------------------------
+    - class : 2016-02-01 # monday
+      style : false
+      notes :
+        - name  : "Data and Charts"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates : false
+    # ---------------------------------
+    - class : 2016-02-03 # wednesday
+      style : false
+      notes :
+        - name  : "Guest Speaker (TBA)"
+          style : "text-muted"
+          icon  : "fa-flag"
+      dates :
+        - name  : "Github Pages"
+          style : "text-muted"
+          icon  : "fa-pencil-square-o"
+          label : "Due"
+    # ---------------------------------
+    - class : 2016-02-05 # friday
+      style : false
+      notes :
+        - name  : "Data and Charts"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates : false
+# =====================================
+- week  : 3
+  style : false
+  days  :
+    # ---------------------------------
+    - class : 2016-02-08 # monday
+      style : false
+      notes :
+        - name  : "Visualizing Time Series"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates :
+        - name  : "Homework 1"
+          style : "text-muted"
+          icon  : "fa-github-alt"
+          label : "Due"
+    # ---------------------------------
+    - class : 2016-02-10 # wednesday
+      style : false
+      notes :
+        - name  : "Visualizing Time Series"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates : false
+    # ---------------------------------
+    - class : 2016-02-12 # friday
+      style : false
+      notes :
+        - name  : "Visualizing Time Series"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates :
+        - name  : "Drop Deadline"
+          style : "text-muted"
+          icon  : "fa-calendar"
+        - name  : "Feedback 1"
+          style : "text-muted"
+          icon  : "fa-comments"
+          label : "Due"
+# =====================================
+- week  : 4
+  style : false
+  days  :
+    # ---------------------------------
+    - class : 2016-02-15 # monday
+      style : false
+      notes :
+        - name  : "No Class (President's Day)"
+          style : "text-muted em"
+          icon  : "fa-calendar-times-o"
+    # ---------------------------------
+    - class : 2016-02-17 # wednesday
+      style : false
+      notes :
+        - name  : "Guest Speaker (TBA)"
+          style : "text-muted"
+          icon  : "fa-flag"
+      dates :
+        - name  : "Midterm Groups"
+          style : "text-muted"
+          icon  : "fa-pencil-square-o"
+          label : "Due"
+    # ---------------------------------
+    - class : 2016-02-19 # friday
+      style : false
+      notes :
+        - name  : "Design Principles"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates : false
+# =====================================
+- week  : 5
+  style : false
+  days  :
+    # ---------------------------------
+    - class : 2016-02-22 # monday
+      style : false
+      notes :
+        - name  : "Visualizing Multivariate Data"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates :
+        - name  : "Homework 2"
+          style : "text-muted"
+          icon  : "fa-github-alt"
+          label : "Due"
+    # ---------------------------------
+    - class : 2016-02-24 # wednesday
+      style : false
+      notes :
+        - name  : "Visualizing Multivariate Data"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates :
+        - name  : "Alan McConchie"
+          style : "text-info"
+          icon  : "fa-flag"
+          link  : "http://vgl.cs.usfca.edu/events/2016/02/24/alan-mcconchie.html"
+          label : "DVSS"
+    # ---------------------------------
+    - class : 2016-02-26 # friday
+      style : false
+      notes :
+        - name  : "Visualizing Multivariate Data"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates :
+        - name  : "Feedback 2"
+          icon  : "fa-comments"
+          style : "text-muted"
+          label : "Due"
+# =====================================
+- week  : 6
+  style : false
+  days  :
+    # ---------------------------------
+    - class : 2016-02-29 # monday
+      style : false
+      notes :
+        - name  : "Data Vis Talks 1"
+          style : "text-muted"
+          icon  : "fa-commenting-o"
+      dates : false
+    # ---------------------------------
+    - class : 2016-03-02 # wednesday
+      style : false
+      notes :
+        - name  : "Data Vis Talks 2"
+          style : "text-muted"
+          icon  : "fa-commenting-o"
+      dates :
+        - name  : "Midterm Proposal"
+          style : "text-muted"
+          icon  : "fa-pencil-square-o"
+          label : "Due"
+    # ---------------------------------
+    - class : 2016-03-04 # friday
+      style : false
+      notes :
+        - name  : "Data Vis Talks 3"
+          style : "text-muted"
+          icon  : "fa-commenting-o"
+      dates : false
+# =====================================
+- week  : 7
+  style : false
+  days  :
+    # ---------------------------------
+    - class : 2016-03-07 # monday
+      style : false
+      notes :
+        - name  : "Evaluation and Redesign"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates :
+        - name  : "Homework 3"
+          style : "text-muted"
+          icon  : "fa-github-alt"
+          label : "Due"
+    # ---------------------------------
+    - class : 2016-03-09 # wednesday
+      style : false
+      notes :
+        - name  : "Evaluation and Redesign"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates : false
+    # ---------------------------------
+    - class : 2016-03-11 # friday
+      style : false
+      notes :
+        - name  : "Evaluation and Redesign"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates :
+        - name  : "Feedback 3"
+          icon  : "fa-comments"
+          style : "text-muted"
+          label : "Due"
+# =====================================
+- week  : 8
+  style : "active text-muted"
+  days  :
+    # ---------------------------------
+    - class : 2016-03-14 # monday
+      style : false
+      notes :
+        - name  : "No Class (Spring Break)"
+          style : "em"
+          icon  : "fa-calendar-times-o"
+    # ---------------------------------
+    - class : 2016-03-16 # wednesday
+      style : false
+      notes :
+        - name  : "No Class (Spring Break)"
+          style : "em"
+          icon  : "fa-calendar-times-o"
+    # ---------------------------------
+    - class : 2016-03-18 # friday
+      style : false
+      notes :
+        - name  : "No Class (Spring Break)"
+          style : "em"
+          icon  : "fa-calendar-times-o"
+# =====================================
+- week  : 9
+  style : false
+  days  :
+    # ---------------------------------
+    - class : 2016-03-21 # monday
+      style : false
+      notes :
+        - name  : "Midterm Presentations"
+          style : "text-danger"
+          icon  : "fa-star"
+      dates :
+        - name  : "Midterm Video"
+          style : "text-danger"
+          icon  : "fa-film"
+          label : "Due"
+        - name  : "Miriam Posner"
+          style : "text-info"
+          icon  : "fa-flag"
+          link  : "http://vgl.cs.usfca.edu/events/2016/03/21/miriam-posner.html"
+          label : "DVSS"
+    # ---------------------------------
+    - class : 2016-03-23 # wednesday
+      style : false
+      notes :
+        - name  : "Midterm Presentations"
+          style : "text-danger"
+          icon  : "fa-star"
+      dates : false
+    # ---------------------------------
+    - class : 2016-03-25 # friday
+      style : false
+      notes :
+        - name  : "No Class (Easter)"
+          style : "text-muted em"
+          icon  : "fa-calendar-times-o"
+      dates : false
+
+# =====================================
+- week  : 10
+  style : false
+  days  :
+    # ---------------------------------
+    - class : 2016-03-28 # monday
+      style : false
+      notes :
+        - name  : "Interactivity"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates : false
+    # ---------------------------------
+    - class : 2016-03-30 # wednesday
+      style : false
+      notes :
+        - name  : "Interactivity"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates :
+        - name  : "Social Media"
+          style : "text-muted"
+          icon  : "fa-comments"
+          label : "Due"
+    # ---------------------------------
+    - class : 2016-04-01 # friday
+      style : false
+      notes :
+        - name  : "Interactivity"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates : false
+# =====================================
+- week  : 11
+  style : false
+  days  :
+    # ---------------------------------
+    - class : 2016-04-04 # monday
+      style : false
+      notes :
+        - name  : "Visualizing Geospatial Data"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates :
+        - name  : "Homework 4"
+          style : "text-muted"
+          icon  : "fa-github-alt"
+          label : "Due"
+    # ---------------------------------
+    - class : 2016-04-06 # wednesday
+      style : false
+      notes :
+        - name  : "Visualizing Geospatial Data"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates : false
+    # ---------------------------------
+    - class : 2016-04-08 # friday
+      style : false
+      notes :
+        - name  : "Visualizing Geospatial Data"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates :
+        - name  : "Feedback 4"
+          style : "text-muted"
+          icon  : "fa-comments"
+          label : "Due"
+
+# =====================================
+- week  : 12
+  style : false
+  days  :
+    # ---------------------------------
+    - class : 2016-04-11 # monday
+      style : false
+      notes :
+        - name  : "Data Vis Talks 4"
+          style : "text-muted"
+          icon  : "fa-commenting-o"
+      dates :
+        - name  : "Withdraw Deadline"
+          style : "text-muted"
+          icon  : "fa-calendar"
+    # ---------------------------------
+    - class : 2016-04-13 # wednesday
+      style : false
+      notes :
+        - name  : "Data Vis Talks 5"
+          style : "text-muted"
+          icon  : "fa-commenting-o"
+      dates :
+      - name  : "Final Proposal"
+        style : "text-muted"
+        icon  : "fa-pencil-square-o"
+        label : "Due"
+    # ---------------------------------
+    - class : 2016-04-15 # friday
+      style : false
+      notes :
+        - name  : "Data Vis Talks 6"
+          style : "text-muted"
+          icon  : "fa-commenting-o"
+      dates : none
+# =====================================
+- week  : 13
+  style : false
+  days  :
+    # ---------------------------------
+    - class : 2016-04-18 # monday
+      style : false
+      notes :
+        - name  : "Visualizing Hierarchy"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates :
+        - name  : "Homework 5"
+          style : "text-muted"
+          icon  : "fa-github-alt"
+          label : "Due"
+    # ---------------------------------
+    - class : 2016-04-20 # wednesday
+      style : false
+      notes :
+        - name  : "Visualizing Hierarchy"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates : false
+    # ---------------------------------
+    - class : 2016-04-22 # friday
+      style : false
+      notes :
+        - name  : "Visualizing Hierarchy"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates :
+        - name  : "Feedback 5"
+          style : "text-muted"
+          icon  : "fa-comments"
+          label : "Due"
+# =====================================
+- week  : 14
+  style : false
+  days  :
+    # ---------------------------------
+    - class : 2016-04-25 # monday
+      style : false
+      notes :
+        - name  : "Visualizing Graph Data"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates : false
+    # ---------------------------------
+    - class : 2016-04-27 # wednesday
+      style : false
+      notes :
+        - name  : "Visualizing Graph Data"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates :
+        - name  : "Visualization Contests"
+          style : "text-muted"
+          icon  : "fa-comments"
+          label : "Due"
+    # ---------------------------------
+    - class : 2016-04-29 # friday
+      style : false
+      notes :
+        - name  : "Visualizing Graph Data"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates : false
+# =====================================
+- week  : 15
+  style : false
+  days  :
+    # ---------------------------------
+    - class : 2016-05-02 # monday
+      style : false
+      notes :
+        - name  : "Special Topics"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates :
+        - name  : "Final Prototype"
+          style : "text-muted"
+          icon  : "fa-github-alt"
+          label : "Due"
+    # ---------------------------------
+    - class : 2016-05-04 # wednesday
+      style : false
+      notes :
+        - name  : "Data Vis Talks 7"
+          style : "text-muted"
+          icon  : "fa-commenting-o"
+      dates : false
+    # ---------------------------------
+    - class : 2016-05-06 # friday
+      style : false
+      notes :
+        - name  : "Data Vis Talks 8"
+          style : "text-muted"
+          icon  : "fa-commenting-o"
+      dates :
+        - name  : "Prototype Feedback"
+          style : "text-muted"
+          icon  : "fa-comments"
+          label : "Due"
+# =====================================
+- week  : 16
+  style : false
+  days  :
+    # ---------------------------------
+    - class : 2016-05-09 # monday
+      style : false
+      notes :
+        - name  : "Instructor Favorites"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates : false
+    # ---------------------------------
+    - class : 2016-05-11 # wednesday
+      style : false
+      notes :
+        - name  : "Student Favorites"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+        - name  : "Course Evaluations"
+          style : "text-muted"
+          icon  : "fa-question-circle"
+      dates :
+        - name  : "Classes End"
+          style : "text-muted"
+          icon  : "fa-calendar"
+        - name  : "Favorites"
+          style : "text-muted"
+          icon  : "fa-comments"
+          label : "Due"
+    # ---------------------------------
+    - class : false
+# =====================================
+- week  : 'Finals'
+  style : false
+  days  :
+    # ---------------------------------
+    - class : 2016-05-16 # monday
+      style : "text-info"
+      notes :
+        - name  : "Final Presentations"
+          style : "strong"
+          icon  : "fa-star"
+        - name  : "3:00pm &ndash; 5:00pm"
+          icon  : "fa-clock-o"
+      dates :
+        - name  : "Final Video"
+          style : "text-danger"
+          icon  : "fa-film"
+          label : "Due 05/15"
+    # ---------------------------------
+    - class : 2016-05-18
+      style :
+      notes :
+        - name : "No Class (Finals Week)"
+          style: "text-muted em"
+          icon : "fa-calendar-times-o"
+      dates :
+        - name : "Final Project"
+          icon : "fa-github-alt"
+          style: "text-danger"
+          label: "Due 05/18"
+    # ---------------------------------
+    - class : false

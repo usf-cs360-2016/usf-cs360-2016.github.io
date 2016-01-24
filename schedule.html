@@ -1,0 +1,73 @@
+---
+layout: default
+title: Schedule
+---
+
+<div class="panel panel-default">
+<table class="table table-responsive inherit-links" id="schedule">
+
+<thead>
+<tr class="small">
+  <th>Week</th>
+  <th colspan="2">Monday</th>
+  <th colspan="2">Wednesday</th>
+  <th colspan="2">Friday</th>
+</tr>
+</thead>
+
+<tbody>
+{% for row in site.data.schedule %}
+  <!-- start week {{ row.week }} -->
+  <tr{% if row.style %} class="{{ row.style }}"{% endif %}>
+    <td class="nowrap text-center small" rowspan="2">
+      {{ row.week }}
+    </td>
+    {% for day in row.days limit:3 %}
+    <td class="nowrap text-center small{% if day.style %} {{ day.style }}{% endif %}" rowspan="2">
+      {% if day.class %}{{ day.class | date: "%m/%d" }}{% else %}&nbsp;{% endif %}
+    </td>
+
+    <td class="fill33{% if day.style %} {{ day.style }}{% endif %}"{% unless day.dates %} rowspan="2"{% endunless %}>
+      {% if day.notes %}<table class="table-noborder table-icon-list">
+        {% for item in day.notes %}
+        <tr>
+          <td class="nowrap{% if item.style %} {{ item.style }}{% endif %}">
+            {% if item.icon %}<i class="fa fa-fw {{ item.icon }}"></i>{% else %}&nbsp;{% endif %}
+          </td>
+          <td{% if item.style %} class="{{ item.style }}"{% endif %}>
+            {% if item.link %}<a href="{{ item.link }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </table>{% endif %}
+    </td>
+
+    {% endfor %}
+  </tr>
+  <tr class="noborder {% if row.style %} {{ row.style }}{% endif %}" valign="bottom">
+    {% for day in row.days limit:3 %}
+    {% if day.dates %}<td class="fill33 {% if day.style %} {{ day.style }}{% endif %}">
+      <table class="table-noborder table-icon-list">
+        {% for item in day.dates %}
+        <tr>
+          <td class="nowrap{% if item.style %} {{ item.style }}{% endif %}">
+            {% if item.icon %}<i class="fa fa-fw {{ item.icon }}"></i>{% else %}&nbsp;{% endif %}
+          </td>
+          <td{% if item.style %} class="{{ item.style }}"{% endif %}{% unless item.label %} colspan="2"{% endunless %} width="100%">
+            {% if item.link %}<a href="{{ item.link }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}
+          </td>
+          {% if item.label %}<td class="nowrap" align="right">
+            <small><span class="label {% case item.style %}{% when 'text-primary' %}label-primary{% when 'text-success' %}label-success{% when 'text-info'%}label-info{% when 'text-warning' %}label-warning{% when 'text-danger'%}label-danger{% else %}label-default{% endcase %}">{{ item.label }}</span></small>
+          </td>{% endif %}
+        </tr>
+        {% endfor %}
+      </table>
+    </td>{% endif %}
+    {% endfor %}
+  </tr>
+
+{% endfor %}
+</tbody>
+</table>
+</div>
+
