@@ -14,14 +14,22 @@ strong, b, h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+.em {
+  font-style: italic;
+}
+
+.inherit-links a {
+    color: inherit;
+}
+
 /* code formatting */
 
-code, pre, tt {
+code, pre, tt, .code, .tt {
   font-family: "Source Code Pro", Menlo, Monaco, Consolas, "Courier New", monospace;
   font-weight: 300;
 }
 
-code {
+code, .code {
   color: dimgray;
   background-color: whitesmoke;
 }
@@ -96,22 +104,48 @@ footer p {
   font-size: small;
 }
 
-/* remove link display on print */
+/* print formatting */
 
 @media print {
   a[href]:after {
     content: none;
   }
+
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 11pt;
+  }
+
+  h1 {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .table > tbody > tr > td,
+  .table > tbody > tr > th,
+  .table > tfoot > tr > td,
+  .table > tfoot > tr > th,
+  .table > thead > tr > td,
+  .table > thead > tr > th {
+    padding: 2px;
+    line-height: 1.10;
+  }
 }
 
-/* no border tables */
+/* table classes */
 
 table.table-noborder,
 .table-noborder tbody,
 .table-noborder thead,
 .table-noborder th,
-.table-noborder td {
+.table-noborder td,
+tr.noborder td {
   border: none !important;
+}
+
+th.nowrap, td.nowrap {
+  white-space: nowrap;
 }
 
 /* show bookmark icon on hover */
@@ -141,4 +175,34 @@ table.table-noborder,
   margin-top: -75px;
   height: 75px;
   visibility: hidden;
+}
+
+/* schedule specific classes */
+
+table#schedule {
+  line-height: 1.25;
+}
+
+th.fill, td.fill {
+  width: 100%;
+}
+
+th.fill50, td.fill50 {
+  width: 50%;
+}
+
+th.fill33, td.fill33 {
+  width: 33%;
+}
+
+table.table-icon-list tr {
+  vertical-align: top;
+}
+
+table.table-icon-list td {
+  padding: 0px 0px 5px 0px;
+}
+
+table.table-icon-list tr:last-child td {
+  padding: 0px 0px 0px 0px;
 }
