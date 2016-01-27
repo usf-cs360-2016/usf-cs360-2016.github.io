@@ -73,7 +73,7 @@
           style : "text-muted"
           icon  : "fa-calendar"
         - name  : "Piazza Confirmation"
-          icon  : "check-square-o"
+          icon  : "fa-check-square-o"
           link  : "https://piazza.com/class/ij7vhke2rvy70a?cid=8"
           label : "Due"
 
