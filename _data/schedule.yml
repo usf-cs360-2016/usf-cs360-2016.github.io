@@ -24,15 +24,15 @@
           style : false
           icon  : "fa-file-pdf-o"
           link  : "https://drive.google.com/open?id=0BxYofk0iB_upMVQyUmpoYk1lNVk"
-        - name  : '"How the Ghost Map Helped End a Killer Disease" by S. Johnson, 2006'
-          icon  : "fa-film"
-          link  : "http://www.ted.com/talks/steven_johnson_tours_the_ghost_map"
-        - name  : '"Let my Dataset Change your Mindset" by H. Rosling, 2009'
-          icon  : "fa-film"
-          link  : "https://www.ted.com/talks/hans_rosling_at_state"
-        - name  : '"The Beauty of Data Visualization" by D. McCandless, 2010'
-          icon  : "fa-film"
-          link  : "https://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization"
+        # - name  : '"How the Ghost Map Helped End a Killer Disease" by S. Johnson, 2006'
+        #   icon  : "fa-film"
+        #   link  : "http://www.ted.com/talks/steven_johnson_tours_the_ghost_map"
+        # - name  : '"Let my Dataset Change your Mindset" by H. Rosling, 2009'
+        #   icon  : "fa-film"
+        #   link  : "https://www.ted.com/talks/hans_rosling_at_state"
+        # - name  : '"The Beauty of Data Visualization" by D. McCandless, 2010'
+        #   icon  : "fa-film"
+        #   link  : "https://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization"
       dates :
         - name  : "Classes Begin"
           style : "text-muted"
@@ -41,9 +41,15 @@
     - class : 2016-01-27 # wednesday
       style : false
       notes :
-        - name  : "Perception and Illusions"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "Motivation"
+          icon  : "fa-file-pdf-o"
+          link  : "https://drive.google.com/open?id=0BxYofk0iB_upaXJuSDdMaXJKSm8"
+        - name  : "Perception"
+          icon  : "fa-file-pdf-o"
+          link  : "https://drive.google.com/open?id=0BxYofk0iB_upREVRSWFNRHlEcEE"
+        - name  : "Optical Illusions"
+          icon  : "fa-file-pdf-o"
+          link  : "https://drive.google.com/open?id=0BxYofk0iB_upc0xCb2ptR3MzQ2c"
       dates :
         - name  : "Github Account"
           icon  : "fa-pencil-square-o"
@@ -53,12 +59,12 @@
     - class : 2016-01-29 # friday
       style : false
       notes :
-        - name  : "Intro to Github Pages"
-          style : "text-muted"
-          icon  : "fa-question-circle"
-        - name  : "Intro to JavaScript"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "Learn HTML/CSS"
+          icon  : "fa-globe"
+          link  : "https://www.codecademy.com/learn/web"
+        - name  : "Learn JavaScript"
+          icon  : "fa-globe"
+          link  : "https://www.codecademy.com/learn/javascript"
         - name  : "Intro to D3.js"
           style : "text-muted"
           icon  : "fa-question-circle"
