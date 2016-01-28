@@ -93,8 +93,8 @@
     - class : 2016-02-03 # wednesday
       style : false
       notes :
-        - name  : "Guest Speaker (TBA)"
-          style : "text-muted"
+        - name  : "Guest Speaker"
+          style : "text-info"
           icon  : "fa-flag"
       dates :
         - name  : "Github Pages"
@@ -167,8 +167,8 @@
     - class : 2016-02-17 # wednesday
       style : false
       notes :
-        - name  : "Guest Speaker"
-          style : "text-info"
+        - name  : "Guest Speaker (TBA)"
+          style : "text-muted"
           icon  : "fa-flag"
       dates :
         - name  : "Midterm Groups"
