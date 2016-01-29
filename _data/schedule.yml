@@ -66,7 +66,6 @@
           icon  : "fa-globe"
           link  : "https://www.codecademy.com/learn/javascript"
         - name  : "Intro to D3.js"
-          style : "text-muted"
           icon  : "fa-cubes"
           link  : "http://bl.ocks.org/sjengle/e8c0d6abc0a8d52d4b11"
       dates :
