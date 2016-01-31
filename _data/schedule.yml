@@ -97,10 +97,6 @@
           style : "text-info"
           icon  : "fa-flag"
       dates :
-        - name  : "Github Pages"
-          icon  : "fa-pencil-square-o"
-          label : "Due"
-          link  : "https://usfca.instructure.com/courses/1558949/assignments/6565824"
         - name  : "Vis Talk Signup"
           icon  : "fa-pencil-square-o"
           label : "Due"
@@ -112,7 +108,11 @@
         - name  : "Data and Charts"
           style : "text-muted"
           icon  : "fa-question-circle"
-      dates : false
+      dates :
+        - name  : "Github Pages"
+          icon  : "fa-pencil-square-o"
+          label : "Due"
+          link  : "https://usfca.instructure.com/courses/1558949/assignments/6565824"
 # =====================================
 - week  : 3
   style : false
