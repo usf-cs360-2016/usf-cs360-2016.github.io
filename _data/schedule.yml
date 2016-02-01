@@ -85,9 +85,12 @@
     - class : 2016-02-01 # monday
       style : false
       notes :
-        - name  : "Data and Charts"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "Basic Charts"
+          link  : "https://drive.google.com/open?id=0BxYofk0iB_updWoyVVFnM2pKWVk"
+          icon  : "fa-file-pdf-o"
+        - name  : "Intro to D3.js"
+          icon  : "fa-cubes"
+          link  : "http://bl.ocks.org/sjengle/e8c0d6abc0a8d52d4b11"
       dates : false
     # ---------------------------------
     - class : 2016-02-03 # wednesday
