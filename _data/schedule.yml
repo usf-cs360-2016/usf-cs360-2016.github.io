@@ -126,7 +126,7 @@
           icon  : "fa-question-circle"
       dates :
         - name  : "Homework 1"
-          style : "text-muted"
+          link  : "https://usfca.instructure.com/courses/1558949/assignments/6570163"
           icon  : "fa-github-alt"
           label : "Due"
     # ---------------------------------
@@ -149,7 +149,7 @@
           style : "text-muted"
           icon  : "fa-calendar"
         - name  : "Feedback 1"
-          style : "text-muted"
+          link  : "https://usfca.instructure.com/courses/1558949/assignments/6570164"
           icon  : "fa-comments"
           label : "Due"
 # =====================================
