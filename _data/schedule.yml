@@ -125,8 +125,8 @@
       style : false
       notes :
         - name  : "Visualizing Time Series"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+          icon  : "fa-file-pdf-o"
+          link  : "https://drive.google.com/open?id=0BxYofk0iB_upVFlFUmt6bE90aTQ"
       dates :
         - name  : "Homework 1"
           link  : "https://usfca.instructure.com/courses/1558949/assignments/6570163"
@@ -136,17 +136,20 @@
     - class : 2016-02-10 # wednesday
       style : false
       notes :
-        - name  : "Visualizing Time Series"
+        - name  : "Multi-Series Line Chart"
+          icon  : "fa-cubes"
+          link  : "http://bl.ocks.org/mbostock/3884955"
+        - name  : "UK Lung Deaths Heatmap"
+          icon  : "fa-cubes"
           style : "text-muted"
-          icon  : "fa-question-circle"
       dates : false
     # ---------------------------------
     - class : 2016-02-12 # friday
       style : false
       notes :
-        - name  : "Visualizing Time Series"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "Lab Instructions"
+          icon  : "fa-github-alt"
+          link  : "https://github.com/usf-cs360-2016/templates-cs360/blob/gh-pages/labs/Lab-2016-02-12.md"
       dates :
         - name  : "Drop Deadline"
           style : "text-muted"
@@ -154,6 +157,10 @@
         - name  : "Feedback 1"
           link  : "https://usfca.instructure.com/courses/1558949/assignments/6570164"
           icon  : "fa-comments"
+          label : "Due"
+        - name  : "Lab 02/12"
+          link  : "https://usfca.instructure.com/courses/1558949/assignments/6572139"
+          icon  : "fa-pencil-square-o"
           label : "Due"
 # =====================================
 - week  : 4
