@@ -139,9 +139,9 @@
         - name  : "Multi-Series Line Chart"
           icon  : "fa-cubes"
           link  : "http://bl.ocks.org/mbostock/3884955"
-        - name  : "UK Lung Deaths Heatmap"
+        - name  : "SF Property Crime Heatmap"
           icon  : "fa-cubes"
-          style : "text-muted"
+          link  : "https://bl.ocks.org/sjengle/24aa9dc777bfc295a9e7"
       dates : false
     # ---------------------------------
     - class : 2016-02-12 # friday
