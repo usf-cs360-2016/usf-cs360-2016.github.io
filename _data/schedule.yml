@@ -177,14 +177,10 @@
     - class : 2016-02-17 # wednesday
       style : false
       notes :
-        - name  : "Guest Speaker (TBA)"
-          style : "text-muted"
+        - name  : "Guest Speaker"
+          style : "text-info"
           icon  : "fa-flag"
-      dates :
-        - name  : "Midterm Groups"
-          style : "text-muted"
-          icon  : "fa-pencil-square-o"
-          label : "Due"
+      dates : false
     # ---------------------------------
     - class : 2016-02-19 # friday
       style : false
@@ -192,7 +188,11 @@
         - name  : "Design Principles"
           style : "text-muted"
           icon  : "fa-question-circle"
-      dates : false
+      dates :
+        - name  : "Midterm Groups"
+          style : "text-muted"
+          icon  : "fa-pencil-square-o"
+          label : "Due"
 # =====================================
 - week  : 5
   style : false
