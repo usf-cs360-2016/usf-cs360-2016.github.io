@@ -185,7 +185,14 @@
         - name  : "Negative Space"
           icon  : "fa-file-pdf-o"
           link  : "https://drive.google.com/open?id=0BxYofk0iB_upMGFLWURxNUJXZGc"
-      dates : false
+        - name  : "Negative Space Exercise"
+          icon  : "fa-cubes"
+          link  : "http://blockbuilder.org/sjengle/8c2b8064e0e6971a89f0"
+      dates :
+        - name  : "Lab 02/19"
+          icon  : "fa-pencil-square-o"
+          label : "Due"
+          link  : "https://usfca.instructure.com/courses/1558949/assignments/6573257"
 # =====================================
 - week  : 5
   style : false
