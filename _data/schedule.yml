@@ -226,9 +226,9 @@
     - class : 2016-02-26 # friday
       style : false
       notes :
-        - name  : "Visualizing Multivariate Data"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "Midterm Project (Discussion)"
+          icon  : "fa-github-alt"
+          link  : "https://github.com/usf-cs360-2016/templates-cs360/tree/gh-pages/midterm"
       dates :
         - name  : "Homework 2"
           icon  : "fa-github-alt"
@@ -254,10 +254,6 @@
           icon  : "fa-commenting-o"
           link  : "https://usfca.instructure.com/courses/1558949/assignments/6565817"
       dates :
-        - name  : "Midterm Proposal"
-          style : "text-muted"
-          icon  : "fa-pencil-square-o"
-          label : "Due"
         - name  : "Feedback 2"
           icon  : "fa-comments"
           label : "Due"
@@ -269,7 +265,11 @@
         - name  : "Data Vis Talks 3"
           icon  : "fa-commenting-o"
           link  : "https://usfca.instructure.com/courses/1558949/assignments/6565817"
-      dates : false
+      dates :
+        - name  : "Midterm Proposal"
+          icon  : "fa-pencil-square-o"
+          label : "Due"
+          link  : "https://usfca.instructure.com/courses/1558949/assignments/6573210"
 # =====================================
 - week  : 7
   style : false
@@ -343,10 +343,11 @@
           style : "text-danger"
           icon  : "fa-star"
       dates :
-        - name  : "Midterm Video"
+        - name  : "Midterm Website"
           style : "text-danger"
-          icon  : "fa-film"
-          label : "Due"
+          icon  : "fa-link"
+          label : "Due 03/20"
+          link  : "https://usfca.instructure.com/courses/1558949/assignments/6573211"
         - name  : "Miriam Posner"
           style : "text-info"
           icon  : "fa-flag"
