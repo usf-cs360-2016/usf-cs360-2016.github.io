@@ -202,8 +202,8 @@
       style : false
       notes :
         - name  : "Visualizing Multivariate Data"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+          icon  : "fa-file-pdf-o"
+          link  : "https://drive.google.com/open?id=0BxYofk0iB_upWkZiRkVWblFTbWc"
       dates : false
     # ---------------------------------
     - class : 2016-02-24 # wednesday
