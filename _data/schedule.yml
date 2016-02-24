@@ -209,9 +209,12 @@
     - class : 2016-02-24 # wednesday
       style : false
       notes :
-        - name  : "Visualizing Multivariate Data"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "Zillow Affordability Heatmap"
+          icon  : "fa-cubes"
+          link  : "https://bl.ocks.org/sjengle/4e8777bed44557dadafa"
+        - name  : "Zillow Market Health Bubble Chart"
+          icon  : "fa-cubes"
+          link  : "https://bl.ocks.org/sjengle/ff5c5d2ca23389739f05"
       dates :
         - name  : "Alan McConchie"
           style : "text-info"
