@@ -204,6 +204,7 @@
         - name  : "Visualizing Multivariate Data"
           icon  : "fa-file-pdf-o"
           link  : "https://drive.google.com/open?id=0BxYofk0iB_upWkZiRkVWblFTbWc"
+
       dates : false
     # ---------------------------------
     - class : 2016-02-24 # wednesday
@@ -229,6 +230,13 @@
     - class : 2016-02-26 # friday
       style : false
       notes :
+        - name  : "Scatterplot Matrix in D3"
+          icon  : "fa-cubes"
+          link  : "https://bl.ocks.org/mbostock/3213173"
+        - name  : "Parallel Coordinates in D3"
+          icon  : "fa-cubes"
+          link  : "http://bl.ocks.org/mbostock/1341021"
+
         - name  : "Midterm Project (Discussion)"
           icon  : "fa-github-alt"
           link  : "https://github.com/usf-cs360-2016/templates-cs360/tree/gh-pages/midterm"
