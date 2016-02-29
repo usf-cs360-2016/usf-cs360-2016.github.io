@@ -294,8 +294,8 @@
           icon  : "fa-question-circle"
       dates :
         - name  : "Homework 3"
-          style : "text-muted"
           icon  : "fa-github-alt"
+          link  : 'https://usfca.instructure.com/courses/1558949/assignments/6575215'
           label : "Due"
     # ---------------------------------
     - class : 2016-03-09 # wednesday
@@ -315,8 +315,8 @@
       dates :
         - name  : "Feedback 3"
           icon  : "fa-comments"
-          style : "text-muted"
           label : "Due"
+          link  : "https://usfca.instructure.com/courses/1558949/assignments/6575218"
 # =====================================
 - week  : 8
   style : "active text-muted"
