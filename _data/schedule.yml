@@ -289,9 +289,9 @@
     - class : 2016-03-07 # monday
       style : false
       notes :
-        - name  : "Evaluation and Redesign"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "Evaluation Principles"
+          icon  : "fa-file-pdf-o"
+          link  : "https://drive.google.com/open?id=0BxYofk0iB_upQVN6UVJuWDNBUEk"
       dates :
         - name  : "Homework 3"
           icon  : "fa-github-alt"
@@ -301,9 +301,9 @@
     - class : 2016-03-09 # wednesday
       style : false
       notes :
-        - name  : "Evaluation and Redesign"
-          style : "text-muted"
+        - name  : "Redesign: How 2012 Stacks Up"
           icon  : "fa-question-circle"
+          link  : "https://bl.ocks.org/sjengle/4c668d31db025ef1f966"
       dates : false
     # ---------------------------------
     - class : 2016-03-11 # friday
