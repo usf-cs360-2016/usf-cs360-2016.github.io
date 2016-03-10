@@ -309,14 +309,18 @@
     - class : 2016-03-11 # friday
       style : false
       notes :
-        - name  : "Evaluation and Redesign"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "Redesign Exercise"
+          icon  : "fa-github-alt"
+          link  : "https://gist.github.com/sjengle/7e90608a00e4d8d324b9#file-readme-md"
       dates :
         - name  : "Feedback 3"
           icon  : "fa-comments"
           label : "Due"
           link  : "https://usfca.instructure.com/courses/1558949/assignments/6575218"
+        - name  : "Redesign Prototype"
+          icon  : "fa-github-alt"
+          label : "Due"
+          link  : "https://usfca.instructure.com/courses/1558949/assignments/6576800"
 # =====================================
 - week  : 8
   style : "active text-muted"
