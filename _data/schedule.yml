@@ -394,21 +394,17 @@
       style : false
       notes :
         - name  : "Interactivity"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+          icon  : "fa-file-pdf-o"
+          link  : "https://drive.google.com/open?id=0BxYofk0iB_upWnFkc0VHM0oxNDA"
       dates : false
     # ---------------------------------
     - class : 2016-03-30 # wednesday
       style : false
       notes :
-        - name  : "Interactivity"
-          style : "text-muted"
-          icon  : "fa-question-circle"
-      dates :
-        - name  : "Social Media"
-          style : "text-muted"
-          icon  : "fa-comments"
-          label : "Due"
+        - name  : "Linked Views in D3"
+          icon  : "fa-cubes"
+          link  : "http://bl.ocks.org/sjengle/82770036765d2c8887317455509737af"
+      dates : false
     # ---------------------------------
     - class : 2016-04-01 # friday
       style : false
