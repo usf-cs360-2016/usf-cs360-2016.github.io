@@ -409,9 +409,9 @@
     - class : 2016-04-01 # friday
       style : false
       notes :
-        - name  : "Interactivity"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "Interactive Line Chart"
+          icon  : "fa-github-alt"
+          link  : "https://github.com/usf-cs360-2016/templates-cs360/tree/gh-pages/homework4"
       dates : false
 # =====================================
 - week  : 11
@@ -424,11 +424,8 @@
         - name  : "Visualizing Geospatial Data"
           style : "text-muted"
           icon  : "fa-question-circle"
-      dates :
-        - name  : "Homework 4"
-          style : "text-muted"
-          icon  : "fa-github-alt"
-          label : "Due"
+      dates : false
+
     # ---------------------------------
     - class : 2016-04-06 # wednesday
       style : false
@@ -445,10 +442,10 @@
           style : "text-muted"
           icon  : "fa-question-circle"
       dates :
-        - name  : "Feedback 4"
-          style : "text-muted"
-          icon  : "fa-comments"
+        - name  : "Homework 4"
+          icon  : "fa-github-alt"
           label : "Due"
+          link  : "https://github.com/usf-cs360-2016/templates-cs360/tree/gh-pages/homework4"
 
 # =====================================
 - week  : 12
