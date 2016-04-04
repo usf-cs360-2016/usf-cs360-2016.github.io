@@ -421,9 +421,12 @@
     - class : 2016-04-04 # monday
       style : false
       notes :
-        - name  : "Visualizing Geospatial Data"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "Geographic Data"
+          icon  : "fa-file-pdf-o"
+          link  : "https://drive.google.com/open?id=0BxYofk0iB_upOWdzaUtOVXBpcW8"
+        - name  : "Geographic Visualization"
+          icon  : "fa-file-pdf-o"
+          link  : "https://drive.google.com/open?id=0BxYofk0iB_upeWFDNURXMFZsc28"
       dates : false
 
     # ---------------------------------
