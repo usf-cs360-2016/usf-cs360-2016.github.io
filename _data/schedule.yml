@@ -433,9 +433,9 @@
     - class : 2016-04-06 # wednesday
       style : false
       notes :
-        - name  : "Visualizing Geospatial Data"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "SF Arrests April 2015"
+          icon  : "fa-cubes"
+          link  : "https://bl.ocks.org/sjengle/2f6d4832397e3cdd78d735774cb5a4f2"
       dates : false
     # ---------------------------------
     - class : 2016-04-08 # friday
@@ -474,9 +474,9 @@
           link  : "https://usfca.instructure.com/courses/1558949/assignments/6565817"
       dates :
       - name  : "Final Proposal"
-        style : "text-muted"
         icon  : "fa-pencil-square-o"
         label : "Due"
+        link  : "https://usfca.instructure.com/courses/1558949/assignments/6579551"
     # ---------------------------------
     - class : 2016-04-15 # friday
       style : false
