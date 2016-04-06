@@ -581,9 +581,9 @@
     - class : 2016-05-06 # friday
       style : false
       notes :
-        - name  : "Data Vis Talks 8"
-          icon  : "fa-commenting-o"
-          link  : "https://usfca.instructure.com/courses/1558949/assignments/6565817"
+        - name  : "Special Topics"
+          style : "text-muted"
+          icon  : "fa-question-circle"
       dates :
         - name  : "Prototype Feedback"
           style : "text-muted"
