@@ -441,9 +441,9 @@
     - class : 2016-04-08 # friday
       style : false
       notes :
-        - name  : "Visualizing Geospatial Data"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "SF Tree Maintenance 2015"
+          icon  : "fa-github-alt"
+          link  : "https://github.com/usf-cs360-2016/templates-cs360/tree/gh-pages/homework5"
       dates :
         - name  : "Homework 4"
           icon  : "fa-github-alt"
@@ -496,11 +496,7 @@
         - name  : "Visualizing Hierarchy"
           style : "text-muted"
           icon  : "fa-question-circle"
-      dates :
-        - name  : "Homework 5"
-          style : "text-muted"
-          icon  : "fa-github-alt"
-          label : "Due"
+      dates : false
     # ---------------------------------
     - class : 2016-04-20 # wednesday
       style : false
@@ -516,11 +512,7 @@
         - name  : "Visualizing Hierarchy"
           style : "text-muted"
           icon  : "fa-question-circle"
-      dates :
-        - name  : "Feedback 5"
-          style : "text-muted"
-          icon  : "fa-comments"
-          label : "Due"
+      dates : false
 # =====================================
 - week  : 14
   style : false
@@ -532,7 +524,11 @@
         - name  : "Visualizing Graph Data"
           style : "text-muted"
           icon  : "fa-question-circle"
-      dates : false
+      dates :
+        - name  : "Homework 5"
+          icon  : "fa-github-alt"
+          label : "Due"
+          link  : "https://github.com/usf-cs360-2016/templates-cs360/tree/gh-pages/homework5"
     # ---------------------------------
     - class : 2016-04-27 # wednesday
       style : false
@@ -540,11 +536,7 @@
         - name  : "Visualizing Graph Data"
           style : "text-muted"
           icon  : "fa-question-circle"
-      dates :
-        - name  : "Visualization Contests"
-          style : "text-muted"
-          icon  : "fa-comments"
-          label : "Due"
+      dates : false
     # ---------------------------------
     - class : 2016-04-29 # friday
       style : false
@@ -552,7 +544,11 @@
         - name  : "Visualizing Graph Data"
           style : "text-muted"
           icon  : "fa-question-circle"
-      dates : false
+      dates :
+        - name  : "Feedback 5"
+          style : "text-muted"
+          icon  : "fa-comments"
+          label : "Due"
 # =====================================
 - week  : 15
   style : false
