@@ -461,6 +461,9 @@
         - name  : "Data Vis Talks 4"
           icon  : "fa-commenting-o"
           link  : "https://usfca.instructure.com/courses/1558949/assignments/6565817"
+        - name  : "Dimensionality"
+          icon  : "fa-file-pdf-o"
+          link  : "https://drive.google.com/open?id=0BxYofk0iB_upNkxKUC1CM3F2c00"
       dates :
         - name  : "Withdraw Deadline"
           style : "text-muted"
