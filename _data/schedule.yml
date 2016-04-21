@@ -515,6 +515,9 @@
         - name  : "Java 8 API Hierarchy"
           icon  : "fa-github-alt"
           link  : 'https://github.com/usf-cs360-2016/templates-cs360/blob/gh-pages/labs/Lab-2016-04-22.md'
+        - name  : "Project Guidelines"
+          icon  : 'fa-github-alt'
+          link  : "https://github.com/usf-cs360-2016/templates-cs360/tree/gh-pages/project"
       dates :
         - name  : 'Lab 04/22'
           icon  : 'fa-pencil-square-o'
