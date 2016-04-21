@@ -497,16 +497,16 @@
       style : false
       notes :
         - name  : "Visualizing Hierarchy"
-          style : "text-muted"
           icon  : "fa-question-circle"
+          link  : "https://drive.google.com/open?id=0BxYofk0iB_upNVRXaXVnR0dUMGM"
       dates : false
     # ---------------------------------
     - class : 2016-04-20 # wednesday
       style : false
       notes :
-        - name  : "Visualizing Hierarchy"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "D3 Tree Demos"
+          icon  : "fa-cubes"
+          link  : "http://bl.ocks.org/sjengle/cdda19c7942c2ff569161ee0566e1396"
       dates : false
     # ---------------------------------
     - class : 2016-04-22 # friday
