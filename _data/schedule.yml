@@ -512,10 +512,13 @@
     - class : 2016-04-22 # friday
       style : false
       notes :
-        - name  : "Visualizing Hierarchy"
-          style : "text-muted"
-          icon  : "fa-question-circle"
-      dates : false
+        - name  : "Java 8 API Hierarchy"
+          icon  : "fa-github-alt"
+          link  : 'https://github.com/usf-cs360-2016/templates-cs360/blob/gh-pages/labs/Lab-2016-04-22.md'
+      dates :
+        - name  : 'Lab 04/22'
+          icon  : 'fa-pencil-square-o'
+          link  : 'https://usfca.instructure.com/courses/1558949/assignments/6581924'
 # =====================================
 - week  : 14
   style : false
