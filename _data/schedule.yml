@@ -610,7 +610,7 @@
           icon  : "fa-question-circle"
       dates :
         - name  : "Prototype Feedback"
-          style : "text-muted"
+          link  : "https://github.com/usf-cs360-2016/templates-cs360/blob/gh-pages/project/prototype.md"
           icon  : "fa-comments"
           label : "Due"
     # ---------------------------------
