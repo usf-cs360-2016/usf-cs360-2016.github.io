@@ -530,9 +530,12 @@
     - class : 2016-04-25 # monday
       style : false
       notes :
-        - name  : "Visualizing Graph Data"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "Networks and Graphs"
+          icon  : "fa-file-pdf-o"
+          link  : "https://drive.google.com/open?id=0BxYofk0iB_upemJwcHpSYmNFSlU"
+        - name  : "Visualizing Graphs"
+          icon  : "fa-file-pdf-o"
+          link  : "https://drive.google.com/open?id=0BxYofk0iB_upUVRZNjBBS05zRFk"
       dates :
         - name  : "Homework 5"
           icon  : "fa-github-alt"
@@ -542,9 +545,12 @@
     - class : 2016-04-27 # wednesday
       style : false
       notes :
-        - name  : "Visualizing Graph Data"
+        - name  : "Hive Plots in D3"
+          icon  : "fa-cubes"
           style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "Final Prototype"
+          link  : "https://github.com/usf-cs360-2016/templates-cs360/blob/gh-pages/project/prototype.md"
+          icon  : "fa-github-alt"
       dates : false
     # ---------------------------------
     - class : 2016-04-29 # friday
@@ -571,8 +577,8 @@
           icon  : "fa-question-circle"
       dates :
         - name  : "Final Prototype"
-          style : "text-muted"
-          icon  : "fa-github-alt"
+          link  : "https://usfca.instructure.com/courses/1558949/assignments/6582151"
+          icon  : "fa-pencil-square-o"
           label : "Due"
     # ---------------------------------
     - class : 2016-05-04 # wednesday
@@ -589,11 +595,8 @@
         - name  : "Special Topics"
           style : "text-muted"
           icon  : "fa-question-circle"
-      dates :
-        - name  : "Prototype Feedback"
-          style : "text-muted"
-          icon  : "fa-comments"
-          label : "Due"
+      dates : false
+
 # =====================================
 - week  : 16
   style : false
@@ -602,15 +605,19 @@
     - class : 2016-05-09 # monday
       style : false
       notes :
-        - name  : "Instructor Favorites"
+        - name  : "Special Topics"
           style : "text-muted"
           icon  : "fa-question-circle"
-      dates : false
+      dates :
+        - name  : "Prototype Feedback"
+          style : "text-muted"
+          icon  : "fa-comments"
+          label : "Due"
     # ---------------------------------
     - class : 2016-05-11 # wednesday
       style : false
       notes :
-        - name  : "Student Favorites"
+        - name  : "Favorites Showcase"
           style : "text-muted"
           icon  : "fa-question-circle"
         - name  : "Course Evaluations"
