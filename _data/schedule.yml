@@ -545,9 +545,9 @@
     - class : 2016-04-27 # wednesday
       style : false
       notes :
-        - name  : "Hive Plots in D3"
+        - name  : "Graph Demos"
           icon  : "fa-cubes"
-          style : "text-muted"
+          link  : "https://bl.ocks.org/sjengle/f6f522f3969752b384cfec5449eacd98"
         - name  : "Final Prototype"
           link  : "https://github.com/usf-cs360-2016/templates-cs360/blob/gh-pages/project/prototype.md"
           icon  : "fa-github-alt"
@@ -556,9 +556,9 @@
     - class : 2016-04-29 # friday
       style : false
       notes :
-        - name  : "Visualizing Graph Data"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "Graph Demos"
+          icon  : "fa-cubes"
+          link  : "https://bl.ocks.org/sjengle/f6f522f3969752b384cfec5449eacd98"
       dates :
         - name  : "Feedback 5"
           style : "text-muted"
