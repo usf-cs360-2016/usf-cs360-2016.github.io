@@ -572,9 +572,12 @@
     - class : 2016-05-02 # monday
       style : false
       notes :
-        - name  : "Special Topics"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "Visualizing Text"
+          icon  : "fa-file-pdf-o"
+          link  : "https://drive.google.com/open?id=0BxYofk0iB_upVmNwZmo5WkpHN1k"
+        - name  : "What We Learned from 5 Million Books"
+          icon  : "fa-play-circle"
+          link  : "https://www.ted.com/talks/what_we_learned_from_5_million_books"
       dates :
         - name  : "Final Prototype"
           link  : "https://usfca.instructure.com/courses/1558949/assignments/6582151"
@@ -592,9 +595,14 @@
     - class : 2016-05-06 # friday
       style : false
       notes :
-        - name  : "Special Topics"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "Prototype Presentations"
+          icon  : "fa-commenting-o"
+          link  : "https://github.com/usf-cs360-2016/templates-cs360/blob/gh-pages/project/prototype.md#extra-credit"
+
+        - name  : "Course Evaluations"
+          icon  : "fa-check-square-o"
+          link  : "https://myusf.usfca.edu/onestop/registration/teaching-effectiveness-survey-faq-for-students"
+
       dates : false
 
 # =====================================
@@ -605,9 +613,10 @@
     - class : 2016-05-09 # monday
       style : false
       notes :
-        - name  : "Special Topics"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+        - name  : "Guest Speaker: Ian Johnson"
+          link  : "https://twitter.com/enjalot"
+          style : "text-info"
+          icon  : "fa-flag"
       dates :
         - name  : "Prototype Feedback"
           link  : "https://github.com/usf-cs360-2016/templates-cs360/blob/gh-pages/project/prototype.md"
@@ -617,20 +626,13 @@
     - class : 2016-05-11 # wednesday
       style : false
       notes :
-        - name  : "Favorites Showcase"
-          style : "text-muted"
-          icon  : "fa-question-circle"
-        - name  : "Course Evaluations"
+        - name  : "Exploring D3 v4.0"
           style : "text-muted"
           icon  : "fa-question-circle"
       dates :
         - name  : "Classes End"
           style : "text-muted"
           icon  : "fa-calendar"
-        - name  : "Favorites"
-          style : "text-muted"
-          icon  : "fa-comments"
-          label : "Due"
     # ---------------------------------
     - class : false
 # =====================================
