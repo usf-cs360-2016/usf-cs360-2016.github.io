@@ -627,8 +627,8 @@
       style : false
       notes :
         - name  : "Exploring D3 v4.0"
-          style : "text-muted"
-          icon  : "fa-question-circle"
+          icon  : "fa-cubes"
+          link  : "http://bl.ocks.org/sjengle/f28f503a9a06c3c440951dcdf9f9077a"
       dates :
         - name  : "Classes End"
           style : "text-muted"
